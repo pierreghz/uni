@@ -69,11 +69,11 @@ exclusif soit... soit... un seul pour être correct
 
 EXEMPLE
 
-Monde prédeterminé ⇒ liberté = false
+Monde prédeterminé ⇒ ¬liberté
 
 Monde pas déterminé
 
-⇒ liberté = true
+⇒ liberté
 
 EXEMPLE 
 
@@ -204,11 +204,11 @@ q		Donc l’homme est libre
 
 Faux, négation d’antécédent.
 
-¬(p^q)  Il est faux que Dieu et Satan existent
-¬p^¬q	Donc Dieu n’existe pas et Satan non plus
+¬(p∧q)  Il est faux que Dieu et Satan existent
+¬p∧¬q	Donc Dieu n’existe pas et Satan non plus
 
 Faux, pour que ça soit correct 
-conclusion = ¬pv¬q L’un ou l’autre n'existe pas.
+conclusion = ¬p∨¬q L’un ou l’autre n'existe pas.
 
 ∀x(Ax⇒Mx)	Tous les animaux sont mortels
 ∃x(Vx⇒		Certains êtres vivants ne sont pas des animaux
@@ -257,9 +257,9 @@ L₂	ET Sauf forces de frottemnt, les corps tendent à conserver leur mouvement.
 L₃	ET Dans le vide, il n’y a pas d’autres forces de frottement que les forces d’attraction.
 L₄	ET la lumière qui me permet d’observer Mercure, se comporte de telle ou telle façon dans le vide, l’atmosphère, le téléscope, …
 
-	L₁^L₂^L₃^L₄ X ⇒ p^¬p	consistance
-	L₁^L₂^L₃ ⇒ L₄		simplicité
-	L_1^L_2^L_3^L_4^L_5	complétude
+	L₁∧L₂∧L₃∧L₄ X ⇒ p∧¬p	consistance
+	L₁∧L₂∧L₃ ⇒ L₄		simplicité
+	L₁∧L₂∧L₃∧L₄∧L₅	complétude
 ou	???
 
 La logique comme outil d’analyse des problèmes
