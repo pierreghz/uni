@@ -1,6 +1,8 @@
 LOGIQUE
 ~~~~~~~
 
+MyULg, « Cours », Accès à e-campus, Logique et argumentation 
+
 Introduction
 ------------
 
@@ -10,7 +12,8 @@ Dégager forme d’un raisonnement pour en déterminer l’exactitude.
 
 φ == rationnelle
 
-DÉFINITION : La logique est la /science/ qui étudie les /principes/ qui régissent le caractère correct ou non des raisonnements.
+DÉFINITION : La logique est la /science/ qui étudie les /principes/ qui
+régissent le caractère correct ou non des raisonnements.
 
 ⇒ Principes généraux déterminant l’exactitude d’un raisonnement.
 
@@ -22,9 +25,12 @@ Or, Monsieur Leclercq... flag'
 
 Donc (introduit conclusion) ⇒ amende
 
-Peu importe le contenu du raisonnement, c’est la forme qui compte, et si on accepte les prémisses, on accepte la conclusion, on présuppose l’exactitude des prémisses.
+Peu importe le contenu du raisonnement, c’est la forme qui compte, et si on
+accepte les prémisses, on accepte la conclusion, on présuppose l’exactitude des
+prémisses.
 
-Ce n’est pas toujours la dernière phrase qui est la conclusion, l’ordre importe peu, on peut introduire une cause après une conclusion. (... car ...)
+Ce n’est pas toujours la dernière phrase qui est la conclusion, l’ordre importe
+peu, on peut introduire une cause après une conclusion. (... car ...)
 
 STRUCTURE D’UN RAISONNEMENT
 
@@ -34,7 +40,8 @@ Inférence → domaine exclusif du logicien.
 ↓
 Thèse/conclusion = affirmation qui doit être admise comme vrai si les prémisses sont vraies.
 
-Le reste vient d’autres disciplines et pas de la logique, la valeur de vérité des prémisses sort de la logique.
+Le reste vient d’autres disciplines et pas de la logique, la valeur de vérité
+des prémisses sort de la logique.
 
 prémisse = thèse
 conclusion = affirmation qui doit être admise comme vraie
@@ -44,9 +51,9 @@ Exemple 4
 
 Meurtrier : cheveux ondulés ou barbe
 
-Or, cheveux ondulés = false
+Or, ¬cheveux ondulés
 
-Donc barbe = true
+Donc barbe
 
 Correct
 
@@ -54,24 +61,26 @@ Exemple 5
 
 Idem
 
-Donc barbe = false
+Donc ¬barbe
 
 Incorrect
 
-Il faut en tirer des principes à appliquer dans le détail là où l'intuition ne suffit plus/là où l'intuition peut tromper
+Il faut en tirer des principes à appliquer dans le détail là où l'intuition ne
+suffit plus/là où l'intuition peut tromper
 
 Le contenu peut influer l'intuition. (Pourquoi ???)
 
 Deux sens pour « ou » : inclusif soit... soit... mais peut être les deux
 exclusif soit... soit... un seul pour être correct
 
-⇒ clarification langage puisque nécessité de précision et d’absence d'ambiguïtés
+⇒ clarification langage puisque nécessité de précision et d’absence
+d'ambiguïtés
 
 EXEMPLE
 
-Monde prédeterminé ⇒ ¬liberté
+Monde prédéterminé ⇒ ¬liberté
 
-Monde pas déterminé
+Monde (d’après la physique quantique) pas déterminé
 
 ⇒ liberté
 
@@ -93,13 +102,17 @@ Les trois sont faux.
 
 En bref :
 
-	* Le modèle de la démonstration mathématique : chaîne nécessaire et impersonnelle
-	* Validité déductive ⇒ prémisses imposent conclusion. Exclusivement un problème FORMEL, le contenu n’est pas important.
-	* Formalisation
+	--- Le modèle de la démonstration mathématique : chaîne nécessaire et impersonnelle
+	--- Validité déductive ⇒ prémisses imposent conclusion. Exclusivement
+	un problème FORMEL, le contenu n’est pas important.  
+	--- Formalisation
 
-Il y a des conclusions dont les arguments sont indépendents les uns des autres et on ne s’en occupera pas.
+Il y a des conclusions dont les arguments sont indépendants les uns des autres
+et on ne s’en occupera pas.
 
-On laisse de côté également la rhétorique, on doit avoir des arguments toujours vrais quel que soit le public ou l’orateur. Les prémisses induisent nécessairement la conclusion.
+On laisse de côté également la rhétorique, on doit avoir des arguments toujours
+vrais quel que soit le public ou l’orateur. Les prémisses induisent
+nécessairement la conclusion.
 
 EXEMPLES 5 & 8
 
@@ -115,15 +128,19 @@ Si *, alors *.
 Or, *.
 Donc *.
 
-Incorrect, mais le contenu peut influer l’intuition (outil & menuisier vs. impôt revenu & rentrée financière).
+Incorrect, mais le contenu peut influer l’intuition (outil & menuisier vs.
+impôt revenu & rentrée financière).
 
-Un raisonnement valide garantit que la vérité des prémisses se transmet à la conclusion.
+Un raisonnement valide garantit que la vérité des prémisses se transmet à la
+conclusion.
 
-Un raisonnement valide dont les prémisses sont fausses peut mener à des conclusions vraies comme à des conclusions fausses.
+Un raisonnement valide dont les prémisses sont fausses peut mener à des
+conclusions vraies comme à des conclusions fausses.
 
 Par ex., erreur sur le jour de la semaine ⇒ conclusion fausse.
 
-Deux erreurs peuvent s’annuler : aujourd’hui le 18 sept., mercredi lendemain lundi ⇒ annulées. Conclusion correcte.
+Deux erreurs peuvent s’annuler : aujourd’hui le 18 sept., mercredi lendemain
+lundi ⇒ annulées. Conclusion correcte.
 
 EXEMPLE 12 & 13
 
@@ -133,28 +150,54 @@ Certains * ne sont pas *. (faux) & (faux)
 
 Donc certains * sont *. (vrai) & (faux)
 
-Un raisonnement non-valide peut mener :
+Un raisonnement invalide peut mener :
 	de prémisses vraies à des conclusions vraies,
 	de prémisses vraies à des conclusions fausses,
 	de prémisses vraies à des conclusions fausses,
 	de prémisses fausses à des conclusions vraies et
 	de prémisses fausses à des conclusions fausses.
 
-La non-validité ne garantit rien.
+L’invalidité ne garantit rien.
 
 *** NB : cours cumulatif, mettre les notes en ordre ***
 
 Aristote (~384 - ~322) 
 
-Dans les « Analytiques », il dresse la liste... Argh
+Dans les « Analytiques », il dresse la liste des syllogismes prédicatifs valides.
 
-D’autres posent les fondements de la logique des propositions : Mégariques & Stoïciens.
+C’est là le premier fondement de la logique des prédicats (cf.
+http://fr.wikipedia.org/wiki/Calcul_des_pr%C3%A9dicats).
+
+→ « En logique mathématique, un prédicat d'un langage est une propriété des
+objets de l'univers du discours exprimée dans le langage en question. Plus
+généralement cette propriété peut porter non seulement sur des objets (on peut
+préciser prédicats d'arité 1 ou monadiques), mais aussi sur des couples
+d'objets (on parle de prédicat d'arité 2, ou encore de relation), des triplets
+d'objets (arité 3) etc. » -- Wikipédia, consulté le 21/09/2012
+
+D’autres posent les fondements de la logique des propositions : Mégariques &
+Stoïciens :
+
+--- Euclide (Ve→IVe siècle ACN)
+--- Eubulide (IVe siècle ACN)
+--- Diodore (IVe siècle ACN)
+--- Philon (IVe → IIIe siècle ACN) 
+--- Chrysippe (IIIe siècle ACN)
+
+Ils dressent des listes de schémas d’inférence valides pour les connecteurs
+propositionnels.
+
+C’est là le premier fondement de la logique des propositions (cf.
+https://fr.wikipedia.org/wiki/Logique_des_propositions).
 
 Gottlob Frege (1848 - 1925)
 
-L'« Idéographie » (1879), langage universel parfait qui permet d’exprimer parfaitement les raisonnements scientifiques, désormais ramenés à de simples calculs.
+L'« Idéographie » (1879), langage universel parfait qui permet d’exprimer
+parfaitement les raisonnements scientifiques, désormais ramenés à de simples
+calculs.
 
-L'idéal de Frege, c'est de faire apparaître la structure logique des thèses et raisonnements dans la structure syntaxique et la grammaire. (cf. algèbre)
+L'idéal de Frege, c'est de faire apparaître la structure logique des thèses et
+raisonnements dans la structure syntaxique et la grammaire. (cf. algèbre)
 
 Exemple 13 :
 
@@ -164,11 +207,14 @@ Exemple 13 :
 x = 8+4
 x = 12
 
-Calcul = règles élémentaires faciles à corriger ⇒ appliquer la même chose à n’importe quel raisonnement.
+Calcul = règles élémentaires faciles à corriger ⇒ appliquer la même chose à
+n’importe quel raisonnement.
 
 Exemple 24.
 
 TABLEAU DE VÉRITÉ
+
+
 
 Exemple 81.
 
@@ -186,7 +232,6 @@ Exemple 81.
 		Répétitions / Séances d’exercices
 		Site Web
 
-MyULg, « Cours », Accès à e-campus, Logique et argumentation 
 
 	La logique comme outil d’analyse
 		Du triple intérêt de la logique
@@ -210,8 +255,11 @@ Faux, négation d’antécédent.
 Faux, pour que ça soit correct 
 conclusion = ¬p∨¬q L’un ou l’autre n'existe pas.
 
-∀x(Ax⇒Mx)	Tous les animaux sont mortels
-∃x(Vx⇒		Certains êtres vivants ne sont pas des animaux
+∀x(Ax∧Mx)	Tous les animaux sont mortels
+∃x(Vx∧¬Ax)	Certains êtres vivants ne sont pas des animaux
+∃x(Vx∧¬Mx)	Donc certains être vivants ne sont pas mortels.
+
+Faux.
 ----------------------------------
 
 Pa	L’atome d’H a possède 1 n.
@@ -224,9 +272,15 @@ Pe	L’atome d’H e possède 2 n.
 
 → la logique au service de l’épistémologie
 
-Ce raisonnement n’est pas déductivement valide.	On ne peut observer qu’un nombre limité de cas/spécimens, on ne peut pas déduire une loi des observations (en restant déductivement correct).
+Ce raisonnement n’est pas déductivement valide.	On ne peut observer qu’un
+nombre limité de cas/spécimens, on ne peut pas déduire une loi des observations
+(en restant déductivement correct).
 
-Cercle de Vienne, c’est la marque de la « Science » de confronter une théorie à l’expérience pour la vérifier, les autres grandes théories (métaphysiques, religieuses, etc.) ne sont pas vérifiées par l’expérience.
+Cercle de Vienne, c’est la marque de la « Science » de confronter une théorie à
+l’expérience pour la vérifier, les autres grandes théories (métaphysiques,
+religieuses, etc.) ne sont pas vérifiées par l’expérience. 
+
+→ https://fr.wikipedia.org/wiki/Cercle_de_Vienne
 
 Pa		Pa
 Pb		¬Pb
@@ -235,27 +289,38 @@ Pd		Pd
 Pe		Pe
 --		--
 ∀ x Px		∃x ¬Px
-Généralisation
+Instanciation	Généralisation
 universelle	existentielle
 
-Un seul contre-exemple suffit à prouver qu’une théorie est fausse et la théorie de droite est déductivement correcte.
+Un seul contre-exemple suffit à prouver qu’une théorie est fausse et la théorie
+de droite est déductivement correcte.
 
-Les corps sont mutuellement attirés de manière proportionnelle à leur masse et inversément proportionnelle au carré de leur distance.
-Sauf forces de frottemnt, les corps tendent à conserver leur mouvement.
+Les corps sont mutuellement attirés de manière proportionnelle à leur masse et
+inversément proportionnelle au carré de leur distance.
 
-Donc, Mercure, qui actuellement est au point p, suit le mouvement m et subit les forces d’attraction F & F', sera demain au point p à l’heure h.
+Sauf forces de frottement, les corps tendent à conserver leur mouvement.
+
+Donc, Mercure, qui actuellement est au point p, suit le mouvement m et subit
+les forces d’attraction F & F', sera demain au point p à l’heure h.
 
 ⇒ On peut prédire une éclipse longtemps à l’avance.
 
 ¬Pm SAUF si Mercure n’apparaît pas au point p à l’heure h
 
-⇒ ¬LOI Ma loi universelle est fausse. ¬L₁v¬L₂v¬L₃¬L₄
+⇒ ¬LOI Ma loi universelle est fausse. ¬L₁∨¬L₂∨¬L₃∨¬L₄
 
 Quoi ?
-L₁	Les corps sont mutuellement attirés de manière proportionnelle à leur masse et inversément proportionnelle au carré de leur distance.
-L₂	ET Sauf forces de frottemnt, les corps tendent à conserver leur mouvement.
-L₃	ET Dans le vide, il n’y a pas d’autres forces de frottement que les forces d’attraction.
-L₄	ET la lumière qui me permet d’observer Mercure, se comporte de telle ou telle façon dans le vide, l’atmosphère, le téléscope, …
+L₁	Les corps sont mutuellement attirés de manière proportionnelle à leur
+	masse et inversément proportionnelle au carré de leur distance.
+
+L₂	ET Sauf forces de frottement, les corps tendent à conserver leur
+	mouvement.
+
+L₃	ET Dans le vide, il n’y a pas d’autres forces de frottement que les
+	forces d’attraction.
+
+L₄	ET la lumière qui me permet d’observer Mercure, se comporte de telle ou
+	telle façon dans le vide, l’atmosphère, le télescope, …
 
 	L₁∧L₂∧L₃∧L₄ X ⇒ p∧¬p	consistance
 	L₁∧L₂∧L₃ ⇒ L₄		simplicité
@@ -263,4 +328,7 @@ L₄	ET la lumière qui me permet d’observer Mercure, se comporte de telle ou 
 ou	???
 
 La logique comme outil d’analyse des problèmes
-On veut que les théories scientifiques sont les plus simples possible, indépendantes des unes des autres.
+
+On veut que les théories scientifiques soient les plus simples possible,
+c'est-à-dire, indépendantes des unes des autres et non pas simplistes.
+
