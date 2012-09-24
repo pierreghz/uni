@@ -1,7 +1,7 @@
 LOGIQUE
 ~~~~~~~
 
-MyULg, « Cours », Accès à e-campus, Logique et argumentation 
+⚠ MyULg, « Cours », Accès à e-campus, Logique et argumentation 
 
 Introduction
 ------------
@@ -272,6 +272,9 @@ Pe	L’atome d’H e possède 2 n.
 
 → la logique au service de l’épistémologie
 
+Un grand nombre des concepts théoriques de l’analyse épistémologique
+proviennent de la logique.
+
 Ce raisonnement n’est pas déductivement valide.	On ne peut observer qu’un
 nombre limité de cas/spécimens, on ne peut pas déduire une loi des observations
 (en restant déductivement correct).
@@ -331,4 +334,226 @@ La logique comme outil d’analyse des problèmes
 
 On veut que les théories scientifiques soient les plus simples possible,
 c'est-à-dire, indépendantes des unes des autres et non pas simplistes.
+
+→ la logique comme outil d’analyse des problèmes
+
+Dieu est (par définition) un être parfait.
+Un être parfait possède toutes les qualités positives.
+L’existence est une qualité positive. → du même ordre que la bonte, l’omniscience ?
+
+Donc Dieu possède l’existence, c’est-à-dire existe.
+
+Kant : l’existence n’est pas une propriété réelle comme la couleur, la taille, etc.
+
+-----------------------------------------------------------------------------------
+Gottlob Frege →									  |
+										  |
+Les philosophes analytiques ont essayé d’expliquer pourquoi : 			  |
+	- propriétés de premier ordre : 					  |
+	- propriétés de second ordre : 						  |
+										  |
+Objection : l’existence n’est pas une propriété de premier mais de second ordre.  |
+										  |
+Les planètes du système solaire sont :						  |
+	- globalement sphériques → chacun des individus ;			  |
+	- huit → on parle de l’ensemble d’abord, et pour en dénombrer les	  |
+	  individus, il faut connaître le concept de système solaire et le	  |
+	  considérer en tant qu’ensemble de planètes.				  |
+										  |
+La question d’existence est donc une sous-catégorie de la question du nombre,	  |
+et il faut un concept pour en connaître la réponse. C’est une question de	  |
+second ordre.									  |
+									   	  |
+¬Ceci existe → il existe des objets de ce type → concept d’objet d’un certain type|
+										  |
+Si on donne « Dieu », c’est un nom propre et insensé en tant que tel puisqu’on	  |
+pré-suppose alors le concept de dieu. → il pourrait y en avoir 0, 1 ou +.	  |
+										  |
+-----------------------------------------------------------------------------------
+
+
+~ Validité déductive ~
+----------------------
+
+- Le modèle de la démonstration mathématique : chaîne nécessaire et impersonnelle.
+
+Si on accepte certains prémisses, on DOIT accepter la conclusion.
+
+chaîne : ensemble d’inférences déductivement valide. Une chaîne est par opposition avec un raisonnement ramifié.
+
+---       ---
+|2|       |3|
+---       ---
+   \     /
+    \   /
+     ---
+     |1|
+     --- 
+
+---       ---
+|2|-------|3|
+---   |   ---
+      |
+      ↓
+     ---
+     |1|
+     ---
+
+Affirmation du conséquent : raisonnement valide.
+
+Un raisonnement valide garantit (par sa forme) que la vérité des prémisses se
+transmet à la conclusion.
+
+Un raisonnement valide dont les prémisses sont fausses peut mener à des
+conclusions vraies comme à des conclusions fausses.
+
+FORMALISATION → cf. Gottlob Frege.
+
+LOGIQUE DES PROPOSITIONS
+------------------------
+
+- Les schémas d’inférence propositionnels ;
+- les connecteurs vérifonctionnels ;
+- la formalisation ;
+- tables de vérité ;
+- tableaux sémantiques ;
+- quelques schémas d’inférence.
+
+Une proposition est une phrase déclarative susceptible d’être vrai ou fausse.
+
+Exemples :
+Il pleut ce 26 septembre 2012 à 16h50.
+Le soleil est composé à 80% d’H.
+Vendre du cannabis est illégal en Belgique.
+
+Contre-exemples :
+Socrate
+est malade
+Vert est ou
+Prête-moi ton cours de Droit pénal !
+Que penses-tu de la loi sur la fin de vie ?
+
+On ne s’intéresse qu’à la logique entre propositions et pas à l’intérieur de
+celles-ci.
+
+A pour autant que B
+Or B
+Donc A
+
+connecteur vérifonctionnel :
+http://www.semantique-gdr.net/dico/index.php/V%C3%A9riconditionnel#Op.C3.A9rateur_v.C3.A9rifonctionnel
+
+Deux propositions élémentaires liées par « et », « soit... soit... », « parce
+que », « avant que », etc. → certains sont vérifonctionnels
+
+La valeur de vérité de la proposition composée dépend exclusivement de la
+valeur de vérité des propositions qui la composent. 
+
+Un connecteur est une fonction de vérité si la valeur de vérité de la
+proposition complexe qu’il permet de composer ne dépend que de la valeur de
+vérité des (propositions élémentaires) composantes.
+
+À chaque connecteur vérifonctionnel correspond une table de vérité qui fournit
+la valeur de vérité de la proposition composée en fonction de la valeur de
+vérité de ses composantes.  
+
+Table de vérité de la négation : 
+	Il ne pleut pas 
+	----------------
+	|  p    |  ¬p  |
+	----------------
+	|  V    |   F  |
+	|  F	|   V  |
+	----------------
+
+Table de vérité de la conjonction :
+	Il pleut et il vente
+	--------------------
+	| p | q |  p ∧ q   |
+	--------------------
+	| V | V |    V     |
+        | V | F |    F     |
+	| F | V |    F     |
+        | F | F |    F     |
+	--------------------
+
+Table de vérité de la disjonction inclusive :
+	Il pleut ou il vente
+        --------------------
+        | p | q |  p ∨ q   |
+        --------------------
+        | V | V |    V     |
+        | V | F |    V     |
+	| F | V |    V     |
+        | F | F |    F     |
+        --------------------
+
+Table de vérité de la disjonction exclusive :
+	Soit il pleut soit il vente
+        --------------------
+        | p | q |  p W q   |
+        --------------------
+        | V | V |    F     |
+        | V | F |    V     |
+        | F | V |    V     |
+        | F | F |    F     |
+        --------------------
+Table de vérité du conditionnel :
+	Si le ciel est dégagé, alors il vente
+	---------------------
+	| p | q |  p ⇒ q    | ¬p ∨ q
+	---------------------
+	| V | V |    V      |
+        | V | F |    F      |
+        | F | V |    V      |
+        | F | F |    V      |
+        ---------------------
+Table de vérité du biconditionnel :
+	Je suis heureux si et seulement si tu m’aimes
+        ---------------------
+        | p | q |  p ⇔ q    |
+        ---------------------
+        | V | V |    V      |
+        | V | F |    F      | → goujaterie
+        | F | V |    F      |
+        | F | F |    V      |
+        ---------------------
+Table de vérité de la double exclusion :
+	Ni mon père est grand ni ma mère est grande
+        ---------------------
+        | p | q |  p ↓ q    | (¬p ∧ ¬q) 
+        ---------------------
+        | V | V |    F      |
+        | V | F |    F      |
+        | F | V |    F      |
+        | F | F |    V      |
+        ---------------------
+Table de vérité de l’incompatibilité :
+	Il n’est pas vrai qu’à la fois mon est grand et ma mère est grande
+
+        ---------------------
+        | p | q |  p | q    |
+        ---------------------
+        | V | V |    F      |
+        | V | F |    V      |
+        | F | V |    V      |
+        | F | F |    V      |
+        ---------------------
+
+Table de vérité binaires :
+        ---------------------
+        | p | q |  p ? q    |
+        ---------------------
+        | V | V |           |
+        | V | F |           |
+        | F | V |           |
+        | F | F |           |
+        ---------------------
+
+Dressez la table de vérité des 16 connecteurs binaires ???
+
+LOGIQUE DES PRÉDICATS :
+	 - LOGIQUE ANCIENNE ;
+	 - LOGIQUE CONTEMPORAINE.
+
 
