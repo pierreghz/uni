@@ -417,7 +417,9 @@ LOGIQUE DES PROPOSITIONS
 - la formalisation ;
 - tables de vérité ;
 - tableaux sémantiques ;
-- quelques schémas d’inférence.
+- équivalences et schémas normaux ;
+- déduction naturelle ;
+- méthode axiomatique.
 
 Une proposition est une phrase déclarative susceptible d’être vrai ou fausse.
 
@@ -469,7 +471,7 @@ Table de vérité de la négation :
 Table de vérité de la conjonction :
 	Il pleut et il vente
 	--------------------
-	| p | q |  p ∧ q   |
+	| p | q |  p ∧ q   | → p.q ou p & q
 	--------------------
 	| V | V |    V     |
         | V | F |    F     |
@@ -480,13 +482,13 @@ Table de vérité de la conjonction :
 Table de vérité de la disjonction inclusive :
 	Il pleut ou il vente
         --------------------
-        | p | q |  p ∨ q   |
+        | p | q |  p ∨ q   | 
         --------------------
         | V | V |    V     |
         | V | F |    V     |
 	| F | V |    V     |
-        | F | F |    F     |
-        --------------------
+        | F | F |    F     | Les poules ont des dents *ou*
+        -------------------- la Terre est ronde.
 
 Table de vérité de la disjonction exclusive :
 	Soit il pleut soit il vente
@@ -501,13 +503,17 @@ Table de vérité de la disjonction exclusive :
 Table de vérité du conditionnel :
 	Si le ciel est dégagé, alors il vente
 	---------------------
-	| p | q |  p ⇒ q    | ¬p ∨ q
+	| p | q |  p ⇒ q    | ¬p ∨ q →→→ ¬(p ∨ ¬q)
 	---------------------
 	| V | V |    V      |
         | V | F |    F      |
         | F | V |    V      |
-        | F | F |    V      |
-        ---------------------
+        | F | F |    V      | Si la Lune est un astre
+        --------------------- alors 2+2 = 4.
+
+Remarque : le « si ... alors ... » vérifonctionnel ne traduit pas toute la
+subtilité du « si ... alors ... » en français.
+
 Table de vérité du biconditionnel :
 	Je suis heureux si et seulement si tu m’aimes
         ---------------------
@@ -532,7 +538,7 @@ Table de vérité de l’incompatibilité :
 	Il n’est pas vrai qu’à la fois mon est grand et ma mère est grande
 
         ---------------------
-        | p | q |  p | q    |
+        | p | q |  p | q    | ¬(p ∧ q)
         ---------------------
         | V | V |    F      |
         | V | F |    V      |
@@ -544,13 +550,95 @@ Table de vérité binaires :
         ---------------------
         | p | q |  p ? q    |
         ---------------------
-        | V | V |           |
-        | V | F |           |
-        | F | V |           |
-        | F | F |           |
+        | V | V |    ?      |
+        | V | F |    ?      |
+        | F | V |    ?      |
+        | F | F |    ?      |
         ---------------------
 
-Dressez la table de vérité des 16 connecteurs binaires ???
+Dressez la table de vérité des 16 connecteurs vérifonctionnels binaires, puis
+trouvez pour chacun d’eux une tournure du langage quotidien, éventuellement
+complexe, qui exprime ce lien logique.
+
+http://www.jlsigrist.com/connecteurs.html
+cf. corrigé sur e-campus
+
+	LA FORMALISATION
+	----------------
+Formaliser → aide à mieux mettre en évidence les propriétés logiques de certains énoncés.
+
+Connecteurs logiques ↔ mots-liens français
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	Pierre est ici *et* Paul est parti.		→ p ∧ q
+=	Pierre est ici ; en outre, Paul est parti.
+=	Pierre est ici mais Paul est parti.
+=	Pierre est ici bien que Paul soit parti.
+
+	Si p alors q					→ p ⇒ q
+=	Dans la mesure où p, q
+=	Il suffit que p pour que q
+=	q si p
+
+	-------
+	|p ⇒ q|
+	|  ≠  |
+	|q ⇒ p|
+	-------
+
+condition suffisante → avoir 12/20 est une condition suffisante pour être
+dispensé en juin ≠ condition nécessaire → l’âge de la majorité est une
+condition nécessaire à l’obtention d’un permis de conduire de catégorie B
+
+condition nécessaire & suffisante →→→ avoir 10/20 est nécessaire et suffisante
+pour être dispensé en juin
+
+Lever les ambiguïtés
+~~~~~~~~~~~~~~~~~~~~
+	« ou » exclusif ∨ inclusif.
+
+p ⇒ q	Si tes devoirs sont inachevés à 17h, alors tu es lent.
+p ⇔ q	Si tes devoirs sont inachevés à 17h, alors tu seras privé de télévision.
+
+p ∧ q	Pierre a une voiture française et il en est content.
+r ∧ q	Marc a une voiture japonaise et il en est content. ← FAUX, « en » = voiture japonaise ≠ française, « il » = Marc ≠ Pierre
+→ r ∧ s
+
+(p∨q)∧r	Le médecin mis en cause démissionnera de son poste de chef de service ou il
+p∨(q∧r)	reconnaîtra publiquement son erreur et il indemnisera la victime.
+
+C’est nécessaire de lever ces ambiguïtés car les conséquences logiques peuvent
+changer. Il est important de déterminer quel est le connecteur principal.
+
+Formaliser « de l’extérieur vers l’intérieur ».
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Si soit Anderlecht soit Bruges gagne le championnat et le Standard prend la
+seconde place, alors je remporte dix fois la mise que j’avais jouée et j’achète
+un nouvel ordinateur ou je m’envole aux Antilles.
+
+soit Anderlecht soit Bruges gagne le championnat *et* le Standard prend la		(pWq)∧r 
+seconde place ⇒ je remporte dix fois la mise que j’avais jouée et j’achète un		¬(pW(q∧r))
+nouvel ordinateur ou je m’envole aux Antilles.
+
+  ((Anderlecht gagne le championnat W Bruges gagne le championnat) ∧ le Standard prend la 
+seconde place) ⇒ (je remporte dix fois la mise que j’avais jouée ∧ (j’achète
+un nouvel ordinateur ∨ je m’envole aux Antilles)).
+
+FORMALISATION : ((p W q) ∧ r) ⇒ (s ∧ (t ∨ u))
+
+CONVENTION D’ÉCRITURE : 
+Priorité du connecteur binaire sur la négation
+
+¬p ∨ q = (¬p) ∨ q ≠ ¬(p ∨ q)
+
+Exercice 9 :
+Dans la liste ci-dessous, repérez les expressions de langage symbolique mal formées. Lorsque cela est possible, transformez-les en expressions bien formées en ajoutant des parenthèses.
+
+a) (p ∨ q ∧ r)
+b) p q
+c) (p ∨ ¬p)
+d) ⇒ p ¬q
+e) ¬p ∧ q)
 
 LOGIQUE DES PRÉDICATS :
 	 - LOGIQUE ANCIENNE ;
