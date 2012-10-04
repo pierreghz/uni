@@ -3,6 +3,12 @@ PHILOSOPHIE CONTEMPORAINE
 
 /Doors of Perception/, Charles STUART
 
+Document de référence :
+
+sha512sum
+04d1bd5377d4eb0b0e056af8c11c3168af15089c4837c45988c057e86df782a7d9e35d0f03bfd135f4ff0a01b15c0ba5d41217602c6f31058da858ceabb2b78d
+ressources_uni/philo_contemp/PhiCo_Matériaux_Full_2012:13.pdf
+
 -- Aspects pratiques -- 
 
 Cours suspendus : 27/09, 01/11, 29/11
@@ -170,6 +176,8 @@ jamais ?
 
 J. LOCKE, « Essai sur l’entendement humain » → 
 
+→ a servi de manuel de philosophie pour les étudiants anglophones à l’époque.
+
 Extrait Nº 6 : formulation simple de la perception différente de la température
 en fonction de la main, nos sens peuvent se contredire ?!
 
@@ -202,7 +210,11 @@ certaines caractéristiques des objets causent ces représentations ;
 3. phénoménalisme : 
 4. trois leçons de l’empirisme :
 
-Extrait Nº 9 
+Extrait Nº 9 : Quel est le fonctionnement de l’esprit humain ? Comment l’esprit acquiert-il les idées ?
+- Les idées sont innées ;
+- les idées sont acquises, via l’expérience → retenu par Locke.
+
+Un esprit sans expérience est vide, comparable à une page blanche.
 
 Extrait Nº 10 : introduction du terme « idée » (“idea”)
 
@@ -217,8 +229,141 @@ proviennent de nous (par composés)
 
 Classification des idées :
 
-1. Idées de la sensation 	Idées de la réflexion
-2. Idées simples 		Idées complexes
-3. Idées de qualités primaires	Idées de qualités secondaires
+1. Idées de la sensation (blancheur) ;
+ Idées de la réflexion
+
+2. Idées simples ;
+ Idées complexes (composées à partir d’idées simples)
+
+3. Idées de qualités primaires	(qqch qui se trouve vraiment dans l’objet :
+solidité, étendue, elles ne varient pas en fonction de celui qui perçoit
+l’objet) ;	
+
+Idées de qualités secondaires (qqch qui ne se trouve dans l’objet que via la
+perception).
 
 Pour revenir à la baignoire de Locke : sa solution : Extrait Nº 14
+
+(P1) Nous percevons directement les choses/la réalité. (Réalisme direct)
+(P2) Nous percevons la même eau, au même moment, comme étant chaude (par une main) et froide (par l’autre). (Expérience de la baignoire)
+(C) La même eau est réellement chaude et froide en même temps.
+
+=> (C) est absurde (contradiction)
+=> il faut renoncer à (P1)
+
+Dans le représentationalisme de Locke, les idées sont nécessairement associées
+à l’esprit et pas au corps, alors que le cas de la baignoire doit être associée
+à l’état du corps.
+
+		esprit 
+		//
+	     P // P.M.
+	      //
+	     idées ---- réel
+
+
+=> représentationalisme = réalisme indirect.
+
+Théorie Lockéenne de l’esprit : 
+
+Il part de Descartes qui remet en doute le témoignage de nos sens et émet la
+possibilité du rêve et d’une tromperie de nos sens. On ne peut pas douter qu’on
+a une perception → le point de départ de la théorie de l’esprit de Locke. Pour
+s’en référer à cela, Locke utilise le terme “ideas”. Le terme “ideas” a un sens
+très large : tout ce à quoi on pense : des propriétés, des caractéristiques du
+monde qui nous entoure.
+
+Q1 : Qu’est-ce qui est directement perçu ?
+		|
+	       / \
+	      /   \
+	 choses  ideas → introduit par Locke en 1690.
+	  (res)    |
+     Réalisme	   |
+     direct      Quel est 
+		leur rapport
+		 aux choses ?
+		   /	     \
+		  /	      \
+		 /	       \
+	Causalité 		Identité
+	(effets-cause)		(parties-tout)
+	Représentationalisme	Phénoménalisme
+
+
+G. BERKELEY
+
+1709 : « Nouvelle théorie de la vision »
+1710 : « Traité concernant les principes de la connaissance »
+1713 : « Trois dialogues entre Hylas et Philonous »
+
+a. Et si Locke et l’homme de la rue avaient tous les deux raison ?
+
+Locke : représentationaliste 
+Homme de la rue : réaliste direct
+→ les deux sont vrais.
+=> les choses réelles SONT les idées.
+
+« idées qui n’existent que dans l’esprit » → dépendance par rapport à l’esprit,
+si plus personne ne pense à une chose, elle cesse d’exister.
+
+b. Le microscope et la mite (Berkeley, 1913).
+
+Extrait Nº 16 : différence d’échelle de la perception entre un humain et un insecte, un acarien.
+Extrait Nº 17 : on ne perçoit jamais les choses elles-mêmes, mais toujours les
+		idées. → accord avec Locke, mais il considère cette théorie dangereuse, pour
+		deux raisons :
+
+		- on n’a aucune raison de croire que les idées sont causées par
+		  les objets extérieurs ;
+
+		- on ne peut pas établir de rapport de ressemblance entre les
+		  idées et les choses, pour pouvoir établir cette ressemblance,
+		  on doit pouvoir avoir accès à l’objet, or, c’est impossible
+		  selon lui, on n’a accès qu’aux idées, aux apparences.
+
+→→→ la théorie de Locke est la porte ouverte au scepticisme et à l’athéisme.
+
+c. L’analogie avec l’équipe de cricket (Gilbert Ryle, 1949, “The concept of mind”)
+
+Comparer un objet à une collection d’êtres humains → une équipe de cricket.
+
+Une équipe existe grâce à ses membres et n’est rien de plus.
+
+Une barrière n’est rien de plus que l’ensemble des représentations mentales qu’elle cause en nous selon le modèle causaliste de Locke. 
+
+Définition : phénomén(al)isme
+
+Conception selon laquelle ce qui existe est identique à ce qui apparaît.
+
+d. Difficulté nº 1 : ma table cesse-t-elle d’exister lorsque je quitte la pièce ?
+
+La réponse pourrait être non si les apparences sont supprimées.
+
+La solution envisagée par Berkeley : Extrait Nº 19
+
+« L’existence [des choses], c’est d’être perçues. »
+
+Extrait nº20 : Berkeley fait appel à Dieu.
+
+“esse est percipi aut percipere”
+		=
+« être c’est être perçu ou percevoir »
+		   ↓		↓
+		Idées		
+		(ideas)
+Extrait Nº 21 :
+Hylas : matérialiste, adversaire de Philonous.
+
+4. Trois leçons de l’empirisme (Hume, 1738).
+
+a. Distinction entre les perceptions et les idées.
+
+Extrait Nº 22 : 
+
+b. 
+
+Extrait Nº 26
+
+c. 
+
