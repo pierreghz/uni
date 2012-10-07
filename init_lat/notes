@@ -110,6 +110,14 @@ G.      equi  | equorum
 D.      equo  | equis
 Abl.    equo  | equis
 	      |
+	Sg.   | Pl.
+N.   magister | magistri
+V.   magister | magistri
+Acc. magistrum| magistros
+G.   magistri | magistrorum
+D.   magistro | magistris
+Abl. magistro | magistris
+	      |
         Sg.   | Pl.
 N.   Romanus  | Romani
 V.   Romane   | Romani
@@ -151,6 +159,32 @@ D. Traduisez.
 6. animi
 7. deis
 8. gladio
+9. ludi
+10. numerum
+11. locos 
+12. populis
+13. ludo
+14. librum
+15. puerorum
+16. uiro
+17. mundo
+18. gladis
+19. animi
+20. agri
+
+E. Traduisez en latin les mots en italiques.
+
+1. dominus - seruum - filii
+2. nuntius - oculis - filium - domini
+3. animo - mundum
+4. filii - seruorum - serui
+5. dei - mundum 
+6. seruus - librum - filio - domini
+7. serue - equis
+8. filii - seruorum
+9. libros
+10. domini - seruos - equos
+
 
 Petrus Paulum non videt.
 , sed
