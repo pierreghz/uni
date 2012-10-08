@@ -212,6 +212,12 @@ n’importe quel raisonnement.
 
 Exemple 24.
 
+Si Monsieur X. est né en France ou né de parents français, il est citoyen français.
+
+Or, si monsieur X. est citoyen français, il a le droit à la sécurité sociale française.
+
+Donc, si Monsieur X. est né de parents français, il a le droit à la sécurité sociale française.
+
 TABLEAU DE VÉRITÉ
 
 
@@ -632,13 +638,151 @@ Priorité du connecteur binaire sur la négation
 ¬p ∨ q = (¬p) ∨ q ≠ ¬(p ∨ q)
 
 Exercice 9 :
-Dans la liste ci-dessous, repérez les expressions de langage symbolique mal formées. Lorsque cela est possible, transformez-les en expressions bien formées en ajoutant des parenthèses.
+Dans la liste ci-dessous, repérez les expressions de langage symbolique mal
+formées. Lorsque cela est possible, transformez-les en expressions bien formées
+en ajoutant des parenthèses.
 
-a) (p ∨ q ∧ r)
+a) (p ∨ q ∧ r) → 
 b) p q
 c) (p ∨ ¬p)
 d) ⇒ p ¬q
 e) ¬p ∧ q)
+
+Exercice 12 : 
+
+Traduisez en langage logique :
+
+a) Monsieur X. est bête et méchant. → p ∧ q
+b) Il est faux que Monsieur X. soit bête et méchant → ¬(p ∧ q)
+c) Monsieur X. est bête, mais il n’est pas méchant → p ∧ ¬q
+d) Monsieur X. n’est ni bête ni méchant. → ¬p ∧ ¬q → p↓q
+e) Monsieur X. est bête et méchant, mais il a droit à la liberté et à la sûreté
+de sa personne. → 
+
+s) Monsieur X. ne falsifie pas sa déclaration de revenus sans s’exposer à un
+redressement fiscal voire risquer une amende.
+
+t) Pour que vous puissiez prétendre être le père de l’enfant de cette dame, il
+est nécessaire que vous ayez signé avec elle une reconnaissance de paternité à
+moins que vous ne soyez son mari.  
+
+
+q ⇒ p → q est une condition suffisante pour que p
+p ⇒ q → q est une condition nécessaire pour que p 
+→ j’ai mon permis = p, q = j’ai 18 ans
+p ⇔ q → 
+
+Exercice 13 :
+
+Avec p : « Il y a un meurtre » et 
+     q : « Il y a un cadavre »,
+
+a) formalisez « Pas de meutre sans cadavre » → p ⇒ q → ¬(p∧¬q) → ¬q ⇒ ¬p
+b) traduisez en français : p ∧ ¬q → Il y a un meurtre mais il n’y a pas de cadavre
+c) traduisez en français : ¬(q ∧ ¬p) → 
+
+
+S’il est faux que ce citoyen est mineur et qu’une prolongation de minorité à son égard a été actée, alors il n’est pas minueur.
+
+il est faux que ce citoyen est mineur et qu’une prolongation de minorité à son égard a été actée, ⇒ il n’est pas mineur.
+
+(¬ que ce citoyen est mineur et qu’une prolongation de minorité à son égard a été actée) ⇒ (¬ il est mineur).
+
+¬ (que ce citoyen est mineur ∧ qu’une prolongation de minorité à son égard a été actée) ⇒ ¬ il est mineur.
+
+¬ (p ∧ q) ⇒ ¬ p
+
+TABLE DE VÉRITÉ :
+-----------------------------------------------------------------------------------------
+| p | q |     p ∧ q	|	¬(p ∧ q)	|  ¬p	|	¬ (p ∧ q) ⇒ ¬ p		|
+-----------------------------------------------------------------------------------------
+| V | V |	V       |	    F           |   F	|	     V		        |
+| V | F |	F       |	    V           |   F	|	     F		        |
+| F | V |	F       |	    V           |   V	|	     V		        |
+| F | F |	F       |	    V           |   V	|	     V		        |
+-----------------------------------------------------------------------------------------
+
+(p W q) ∧ r
+
+-----------------------------------------------------------------------------------------
+|    p    |    q   |   r   |   p W q   |                 (p W q) ∧ r                    |
+-----------------------------------------------------------------------------------------
+|    V    |        |       |           |                                                |
+|    V    |        |       |           |                                                |
+|    V    |        |       |           |                                                |
+|    V    |        |       |           |                                                | 
+|    F    |        |       |           |                                                |
+|    F    |        |       |           |                                                |
+|    F    |        |       |           |                                                | 
+|    F    |        |       |           |                                                | 
+|    F    |        |       |           |                                                | 
+----------------------------------------------------------------------------------------- 
+
+Exercice 15 : 
+
+Formalisez l’énoncé suivant : 
+« L’entreprise emploie de la main d’œuvre non déclarée et exerce une
+concurrence déloyale si et seulement si elle emploie de la main d’œuvre non
+déclarée ou fait sauter ses amendes lorsqu’elle est contrôlée »,
+
+FORMALISATION : (p ∧ q) ⇔ (p ∨ (r ⇒ s))
+
+puis déterminez la valeur de vérité de cet énoncé dans les cas suivants :
+a) l’entreprise emploie de la main d’œuvre non déclarée et elle exerce une
+concurrence déloyale, mais elle n’est pas contrôlée et elle ne fait pas sauter
+ses amendes.
+
+
+NOTION DE TAUTOLOGIE : 
+
+Columbus est ou n’est pas la capitale de l’Ohio.
+
+		p ∨ ¬p
+Columbus est ou n’est pas la capitale de l’Ohio.
+Columbus est « la capitale de l’Ohio » ou « Columbus » n’est pas la capitale de l’Ohio
+...
+
+                p ∨ ¬p
+-----------------------------------------------------------
+|   p   |   ¬p   |                p ∨ ¬p                  |
+-----------------------------------------------------------
+|   V   |   F    |                  V                     |
+|   F   |   V    |                  V                     |
+-----------------------------------------------------------
+
+Proposition complexe toujours vraie.
+
+
+Exercice 20 : 
+
+Grâce aux tableaux de vérité, repérez parmi les formules suivantes les vérités
+logiques et les contradictions :
+
+a) [(p ⇒ ¬q) ∧ ¬p] ⇒ ¬q
+d) ¬(p ∨ q) ⇔ (¬p ∨ ¬q)
+j) (p ∧ q) ⇒ (p ∨ q)
+k) (p ∧ q) ∨ (¬p ∧ ¬q)
+l) (p ⇒ q) ⇒ (¬p ⇒ ¬q)
+
+Puisque c’est en vertu de sa forme qu’une proposition complexe est
+tautologique, c’est là une propriété qu’elle partage avec toutes les
+propositions de la même forme.
+
+C’est donc une forme de proposition qui est tautologique (ou antilogique) ou
+plutôt « valide » (ou inconsistante).
+
+Exemple 24.
+
+Si Monsieur X. est né en France ou né de parents français, il est citoyen français.
+(p ∨ q) ⇒ r
+Or, si monsieur X. est citoyen français, il a le droit à la sécurité sociale française.
+Or r ⇒ s
+Donc, si Monsieur X. est né de parents français, il a le droit à la sécurité sociale française.
+Donc q ⇒ s
+→→→ {[(p ∨ q) ⇒ r] ∧ (r ⇒ s)} ⇒ (q ⇒ s)
+
+
+TABLE DE VÉRITÉ : 160 V/F, 2⁴ lignes, 2³ + 1 colonnes
 
 LOGIQUE DES PRÉDICATS :
 	 - LOGIQUE ANCIENNE ;
