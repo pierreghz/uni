@@ -1,0 +1,52 @@
+LOGIQUE : RÉPÉTITIONS
+~~~~~~~~~~~~~~~~~~~~~
+
+Rappels :
+proposition = une phrase déclarative susceptible d’être fausse, ou vraie. → on
+peut déterminer la vérité.  ¬question, ¬ordre.
+→→→ différents types de propositions :
+	- propositions simples/atomiques : p = il pleut
+	- propositions complexes : propositions liées par un connecteur
+
+formule = « grande » proposition complexe
+
+TABLE DE VÉRITÉ : propositions simples → formules via propositions de + en + complexes
+Les tables de vérité sont la base de la plupart des méthodes et on peut souvent
+y revenir (cf pp 21 à 23 du manuel).
+
+----------------------------------------------------------------
+|   p   |   q   |   p ∧ q   |  p ∨ q  |  p W q | p ⇒ q | p ⇔ q |
+----------------------------------------------------------------
+|   V   |   V   |     V     |    V    |    F   |   V   |   V   |
+|   V   |   F   |     F     |    V    |    V   |   F   |   F   |
+|   F   |   V   |     F     |    V    |    V   |   V   |   F   |
+|   F   |   F   |     F     |    F    |    F   |   V   |   V   |
+----------------------------------------------------------------
+2^x
+x = le nbre de propositions
+2² → 4 lignes
+	    
+	    p ∧ q 
+	antécédent → p
+	conséquent → q
+	V seulement lorsque les deux (p & q) sont vrais.
+
+
+p ∨ q (disj. inclusive) → un seul cas où c’est F → quand p & q sont F
+p W q (disj. exclusive) → quand les deux sont V ou les deux sont F → F
+p ⇒ q (conditionnelle) → un seul cas rend faux, lorsque l’antécédent est V et
+le conséquent est F
+p ⇔ q = (p ⇒ q) ∧ (q ⇒ p)
+
+[(p ⇒ q) ∧ p ] ⇒ q
+
+----------------------------------------------------------------
+|   p   |   q   | p ⇒ q | (p ⇒ q) ∧ p |    [(p ⇒ q) ∧ p ] ⇒ q  |
+----------------------------------------------------------------
+|   V   |   V   |   V   |       V     |            V           |
+|   V   |   F   |   F   |       F     |            V           |
+|   F   |   V   |   V   |       F     |            V           |
+|   F   |   F   |   V   |       F     |            V           |
+----------------------------------------------------------------
+Formule tautologique ⇔ valide
+
