@@ -707,15 +707,14 @@ TABLE DE VÉRITÉ :
 -----------------------------------------------------------------------------------------
 |    p    |    q   |   r   |   p W q   |                 (p W q) ∧ r                    |
 -----------------------------------------------------------------------------------------
-|    V    |        |       |           |                                                |
-|    V    |        |       |           |                                                |
-|    V    |        |       |           |                                                |
-|    V    |        |       |           |                                                | 
-|    F    |        |       |           |                                                |
-|    F    |        |       |           |                                                |
-|    F    |        |       |           |                                                | 
-|    F    |        |       |           |                                                | 
-|    F    |        |       |           |                                                | 
+|    V    |    V   |   V   |     F     |                      F                         |
+|    V    |    V   |   F   |     F     |                      F                         |
+|    V    |    F   |   V   |     V     |                      V                         |
+|    V    |    F   |   F   |     V     |                      F                         | 
+|    F    |    V   |   V   |     V     |                      V                         |
+|    F    |    V   |   F   |     V     |                      F                         |
+|    F    |    F   |   V   |     F     |                      F                         | 
+|    F    |    F   |   F   |     F     |                      F                         | 
 ----------------------------------------------------------------------------------------- 
 
 Exercice 15 : 
@@ -752,6 +751,16 @@ Columbus est « la capitale de l’Ohio » ou « Columbus » n’est pas la capi
 
 Proposition complexe toujours vraie.
 
+Le contraire d’une tautologie : antilogie :
+                p ∧ ¬p
+-----------------------------------------------------------
+|   p   |   ¬p   |                p ∧ ¬p                  |
+-----------------------------------------------------------
+|   V   |   F    |                  F                     |
+|   F   |   V    |                  F                     |
+-----------------------------------------------------------
+
+Proposition complexe toujours fausse.
 
 Exercice 20 : 
 
@@ -780,9 +789,117 @@ Or r ⇒ s
 Donc, si Monsieur X. est né de parents français, il a le droit à la sécurité sociale française.
 Donc q ⇒ s
 →→→ {[(p ∨ q) ⇒ r] ∧ (r ⇒ s)} ⇒ (q ⇒ s)
+cf. manuel p. 31
 
+----------------------------------------------------------------------------------------------------------------------
+| p | q | r | s | p ∨ q |(p∨q)⇒r| r ⇒ s | [(p ∨ q) ⇒ r] ∧ (r ⇒ s) |  (q ⇒ s)  |  {[(p ∨ q) ⇒ r] ∧ (r ⇒ s)} ⇒ (q ⇒ s) |
+----------------------------------------------------------------------------------------------------------------------
+| V | V | V | V |   V   |   V   |   V   |            V            |     V     |                 V                    |
+| V | V | V | F |   V   |   V   |   F   |            F            |     F     |                 V                    |
+| V | V | F | V |   V   |   F   |   V   |            F            |     V     |                 V                    |
+| V | V | F | F |   V   |   F   |   V   |            F            |     F     |                 V                    |
+| V | F | V | V |   V   |   V   |   V   |            V            |     V     |                 V                    |
+| V | F | V | F |   V   |   V   |   F   |            F            |     V     |                 V                    |
+| V | F | F | V |   V   |   F   |   V   |            F            |     V     |                 V                    |
+| V | F | F | F |   V   |   F   |   V   |            F            |     V     |                 V                    |
+| F | V | V | V |   V   |   V   |   V   |            V            |     V     |                 V                    |
+| F | V | V | F |   V   |   V   |   F   |            F            |     F     |                 V                    |
+| F | V | F | V |   V   |   F   |   V   |            F            |     V     |                 V                    |
+| F | V | F | F |   V   |   F   |   V   |            F            |     F     |                 V                    |
+| F | F | V | V |   F   |   V   |   V   |            V            |     V     |                 V                    |
+| F | F | V | F |   F   |   V   |   F   |            F            |     V     |                 V                    |
+| F | F | F | V |   F   |   V   |   V   |            V            |     V     |                 V                    |
+| F | F | F | F |   F   |   V   |   V   |            V            |     V     |                 V                    |
+----------------------------------------------------------------------------------------------------------------------
+TABLE DE VÉRITÉ : 160 V/F, 2⁴ lignes, 2³ + 2 colonnes
 
-TABLE DE VÉRITÉ : 160 V/F, 2⁴ lignes, 2³ + 1 colonnes
+Est-ce une tautologie ? Oui.
+
+Exemple 26 : 
+
+Il est faux que la loi soit la même pour tous et la justice parfaitement
+impartiale. ¬(p ∧ q)
+
+Donc il est faux que la loi soit la même pour tous et il est faux que la
+justice soit parfaitement impartiale. → Donc ¬p ∧ ¬q
+
+¬(p ∧ q) ⇒ (¬p ∧ ¬q)
+
+---------------------------------------------------------------------
+| p | q | p ∧ q | ¬(p ∧ q) | ¬p | ¬q | ¬p ∧ ¬q |¬(p ∧ q) ⇒ (¬p ∧ ¬q)|
+---------------------------------------------------------------------
+| V | V |   V   |     F    | F  |  F |    F    |         V          |
+| V | F |   F   |     V    | F  |  V |    F    |         F          |
+| F | V |   F   |     V    | V  |  F |    F    |         F          |
+| F | F |   F   |     V    | V  |  V |    V    |         V          |
+---------------------------------------------------------------------
+
+Contre-argumentation :
+
+Ce n’est pas la même chose de nier une conjonction et de nier chacun de ses deux éléments. Si la loi n’est pas la même pour tous mais que la justice est parfaitement impartiale, ...
+
+Exemple 10 : 
+
+Si Philippe est soumis à l’impôt sur le revenu, alors il a au moins une rentrée financière.
+
+Or, Philippe a au moins une rentrée financière.
+
+Donc Philippe est soumis à l’impôt sur le revenu.
+
+[(p ⇒ q) ∧ q] ⇒ p
+
+---------------------------------------------------
+| p | q | p ⇒ q | (p ⇒ q) ∧ q | [(p ⇒ q) ∧ q] ⇒ p |
+---------------------------------------------------
+| V | V |   V   |      V      |         V         |
+| V | F |   F   |      F      |         V         |
+| F | V |   V   |      V      |         F         |
+| F | F |   V   |      F      |         V         |
+---------------------------------------------------
+
+Ce n’est pas parce que la conséquence va dans un sens qu’elle va aussi dans
+l’autre. Ce n’est pas parce que, si on est soumis à l’impôt sur le revenu on a
+forcément une rentrée financière, qu’on est, à l’inverse, forcément soumis à
+l’impôt si on a une rentrée financière.
+
+Exercice 22 : 
+
+Formalisez le raisonnement suivant puis vérifiez sa validité par la méthode des tables de vérité :
+
+Si le contrat n’est pas signé ou les conditions de l’accord pas respectées, les deux parties sont déliées de tout engagement.
+
+...
+
+ÉQUIVALENCES & SCHÉMAS NORMAUX :
+--------------------------------
+
+	p W q
+       /     \
+     p, ¬q    ¬p, q 
+
+	¬(p W q)
+	    |
+          ¬p,¬q
+
+	p ∨ q
+       /  |  \
+      /   |   \
+   ----------------- 
+   |p,q  p,¬q  ¬p,q|
+   ----------------- 
+
+	p ∨ q
+       /     \
+      p       q
+     /\       /\
+    /  \     /  \
+ (p,q  p,¬q)(p,q ¬p,q)
+
+	p ∧ q
+          |
+         p,q
+
+Tables de vérité → dans l’autre sens.
 
 LOGIQUE DES PRÉDICATS :
 	 - LOGIQUE ANCIENNE ;
