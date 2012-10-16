@@ -50,3 +50,50 @@ p ⇔ q = (p ⇒ q) ∧ (q ⇒ p)
 ----------------------------------------------------------------
 Formule tautologique ⇔ valide
 
+Formalisation : 
+---------------
+
+passage de la langue naturelle à la forme logique, ou l’inverse.
+
+Si le médecin rate l’opération, alors il devra payer une indemnité ou
+démissionner. Il se trouve qu’il a raté l’opération, il doit donc payer une
+indemnité ou quitter son job.
+
+Propositions → 
+le médecin rate l’opération
+il devra payer une indemnité
+démissionner
+il a raté l’opération
+il doit payer une indemnité
+quitter son job
+
+« donc » &  « il se trouve que » sont des indicateurs d’application.
+
+p : le médecin rate l’opération
+q : le médecin doit payer une indemnité
+r : démissionner
+
+Opérateurs : 
+
+Si..., alors... . ⇒ 
+ou → ∨
+il se trouve que → opérateur de conjonction → ∧
+, ... donc → ⇒
+ou → ∨
+
+Si p, alors q ou r. Il se trouve que p, donc q ou r.
+p ⇒ q ∨ r. ∧ p ⇒ q ∨ r.
+{[p ⇒ (q ∨ r)] ∧ p} ⇒ (q ∨ r).
+-------------------------------------------------------------------------------------
+p | q | r | q ∨ r | p ⇒ (q ∨ r) | [p ⇒ (q ∨ r)] ∧ p | {[p ⇒ (q ∨ r)] ∧ p} ⇒ (q ∨ r) | 
+-------------------------------------------------------------------------------------
+V | V | V |   V   |      V      |         V         |               V               |
+V | V | F |   V   |      V      |         V         |               V               |
+V | F | V |   V   |      V      |         V         |               V               |
+V | F | F |   F   |      F      |         F         |               V               |
+F | V | V |   V   |      V      |         F         |               V               |
+F | V | F |   V   |      V      |         F         |               V               |
+F | F | V |   V   |      V      |         F         |               V               |
+F | F | F |   F   |      V      |         F         |               V               |
+-------------------------------------------------------------------------------------
+
