@@ -382,14 +382,50 @@ Philosophie analytique à Cambridge
 
 
 La philosophie analytique clarifie le langage. Les premiers philosophes du
-langages étant des logicien qui ont entrepris de réformer la logique formelle
+langage étant des logiciens qui ont entrepris de réformer la logique formelle
 (Gottlob Frege: « grand père de la philosophie analytique » : « Begriffsschrift » 
 (Idéographie), ouvrage traitant de l'orientation de la philosophie analytique).
+
+Dans son ouvrage, son but étant de produire un langage idéal qui ne
+produirait pas les ambiguïtés d'un langage naturel. On dit que la philosophie a
+pris un tournant linguistique ; Michael Dummet → Extrait Nº27,
+Richard Rorty → Extrait Nº28. qui dit que faire de la philosophie est
+répondre aux questions que suscite le langage, les autres problèmes étant de
+faux problèmes; De même pour Russell, les vrais problèmes philosophiques sont
+des problèmes logiques).
+
+Deux grandes périodes dans la philosophie analytique : 
+	- première génération : Frege, Russell → langage logique : le langage
+	  ordinaire n’est pas suffisament clair et transmet de l'ambiguïté. Ces
+	  philosophes préconisent une analyse logique, dite première analyse.
+	- deuxième génération : « langage ordinaire » : le langage ordinaire
+	  est environ ordinaire, le langage logique est artificiel. Pour eux,
+          le langage symbolique est une utopie qui ne fonctionne pas ; les mots 
+          n’ont pas une signification figée. Ce type de raisonnement permet 
+          d’exprimer un grand nombre de nuances.
 
 Introduction :
 
 1. Multiplier les apparences (Russell, 1912/14)
-	- l’enveloppe de Moore (1910/11)
+
+Britannique, il a enseigné au Trinity collège à Cambridge dès 1899. Il est l'auteur des « Principiæ Mathematica ».
+
+Russell rejette le réalisme direct en citant le principe de relativité selon lequel les apparences d’un même objet sont différentes selon les individus, les types d’approche (par exemple : la table dans « Problèmes de la philosophie »). Deux raisonnements plaident contre le réalisme direct :
+	-  Nous percevons différentes couleurs à la même place (expérience). Or
+	   différentes couleurs ne peuvent pas être au même endroit (réalisme
+           direct). Donc, les couleurs perçues ne sont pas constituantes du 
+           monde réel (Ad absurdum).
+	- Nous percevons différentes couleurs à la même place (expérience).
+	  Or, nous n'avons aucune raison de privilégier une couleur plutôt
+	  qu'une autre. Donc, il faut admettre qu'aucune couleur ne peut 
+	  être choisie pour déterminer l'objet réel.
+
+ L’ENVELOPPE DE MOORE (1910/11)
+
+MOORE introduit la distinction entre les :
+	- sense-data : données de sensation non mentales (couleur, taille, forme) ;
+	- et les sensations : expérience mentale des sense-data.
+
 2. Le chat de Russell (ou : pourquoi être réaliste ?)
 
 Le réalisme est l’option la plus simple, Russell opte pour le critère de
@@ -474,7 +510,7 @@ Gottlob FREGE, « Über Sinn und Bedeutung » (1892)
 Sinn = sens
 Bedeutung = dénotation (signification) = objet désigné
 
-“On denoting” (1905) : 
+Bertrand RUSSELL: “On denoting” (1905) : 
 
 Expressions dénotantes :
 1. ambigües : « un roi » → lequel ?
