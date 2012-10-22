@@ -899,7 +899,29 @@ Si le contrat n’est pas signé ou les conditions de l’accord pas respectées
           |
          p,q
 
+
+	¬(p ∧ q) ⇒ p
+          |
+         p,q
+
 Tables de vérité → dans l’autre sens.
+
+Columbus et et n’est pas la capitale de l’Ohio → antilogie (toujours fausse)
+
+Identifier des modèles d’une proposition complexe, c’est chercher, par analyse,
+quels « cas » la rendent vraie.
+
+¬(p ∨ ¬p)
+
+¬[¬(p ∧ q) ⇒ (¬p ∨ ¬q)
+	|
+¬(p ∧ q), ¬(¬p ∨ ¬q)
+
+Une formule conditionnelle valide traduit un lien de conséquence logique :
+⊨A⇒B	A⊨B (ou A→B)
+
+Une formule biconditionnelle valide traduit un lien d’équivalence logique :
+⊨A⇔B A↔B
 
 LOGIQUE DES PRÉDICATS :
 	 - LOGIQUE ANCIENNE ;
