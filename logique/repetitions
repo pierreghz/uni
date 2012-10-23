@@ -8,7 +8,7 @@ peut déterminer la vérité.  ¬question, ¬ordre.
 	- propositions simples/atomiques : p = il pleut
 	- propositions complexes : propositions liées par un connecteur
 
-formule = « grande » proposition complexe
+Formule = « grande » proposition complexe
 
 TABLE DE VÉRITÉ : propositions simples → formules via propositions de + en + complexes
 Les tables de vérité sont la base de la plupart des méthodes et on peut souvent
@@ -53,7 +53,7 @@ Formule tautologique ⇔ valide
 Formalisation : 
 ---------------
 
-passage de la langue naturelle à la forme logique, ou l’inverse.
+Passage de la langue naturelle à la forme logique, ou l’inverse.
 
 Si le médecin rate l’opération, alors il devra payer une indemnité ou
 démissionner. Il se trouve qu’il a raté l’opération, il doit donc payer une
@@ -97,3 +97,60 @@ F | F | V |   V   |      V      |         F         |               V           
 F | F | F |   F   |      V      |         F         |               V               |
 -------------------------------------------------------------------------------------
 
+TABLEAUX SÉMANTIQUES
+
+Méthodologie : 
+p ∨ ¬p 
+→ ¬(p ∨ ¬p)
+
+A ∧ B
+  ↓
+ A,B → un seul cas où A ∧ B est vrai
+
+¬ A ∧ B
+   ↓
+ ¬A, B
+
+ A ∨ B
+/     \
+A      B
+
+¬(A ⇒ B)
+    ↓
+   A,¬B
+
+Formule vraie/fausse → négation ou pas sur la formule, si négation → quel cas fausse ?
+
+¬(p ∨ ¬p)
+    ↓
+  ¬p,¬¬p
+  ¬p,p
+    X
+Paires complémentaires → contradiction → on ferme la branche (X)
+Sinon : la branche reste ouverte (O)
+
+¬(¬r ∨ ¬s) ⇒ (r ∧ s)
+¬{¬(¬r ∨ ¬s) ⇒ (r ∧ s)}
+            ↓
+  ¬(¬r ∨ ¬s),¬(r ∧ s)
+  ----------
+            ↓
+  ¬¬r,¬¬s,¬(r ∧ s)
+          --------
+          /      \
+        r,s,¬r  r,s,¬s
+        -   --    - --
+          X        X
+Toutes les branches du tableau sont fermées → la formule est valide.
+Prolongations & paires complémentaires
+
+[(p ⇒ q) ∧ q] ⇒ p
+
+¬{[(p ⇒ q) ∧ q] ⇒ p}
+           ↓
+[(p ⇒ q) ∧ q], ¬p
+           ↓
+      p ⇒ q,q,¬p
+        /    \
+     ¬p,q,¬p q,q,¬p
+     
