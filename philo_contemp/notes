@@ -583,6 +583,29 @@ Mais le contexte est très différent par rapport à l’empirisme classique (qu
 était anthropologique voire biologique, spécifique à l’homme et au
 fonctionnement naturel de l’esprit humain).
 
+
+			   Énoncés
+                          /  |    \
+		         /   |     \
+			/    |      \
+		       /     |       \
+		      /      |        \
+                     /       |         \
+                    /        |          \
+                   /         |           \
+		sensés   tautologiques    insensés
+	    (vérifiables) ou non-factuels (invérifiables)
+                   |	 (conventions)          |
+		   |		|        	|
+	      empiriques	|           métaphysiques
+	      ou factuels       |          ou poétiques
+	     (connaissance)     |         (attitude affective)
+		   |		|               |
+		   |		|               |
+	       sciences	   mathématique     métaphysique
+	     particulières  et logique       et poésie
+
+
 → Le cercle de Vienne s’intéresse avant tout au langage, et fait une analyse
 des énoncés du langage → thèse linguistique, ¬psychologique, basée sur les «
 énoncés d’observation ».
@@ -672,7 +695,7 @@ L’être en tant qu’être → ¬être physique/biologique
 Exemples d’énoncés métaphysiques :
 Le monde est composé d’une substance unique → moniste → thèse pré-socratique
 
-esse est percipi
+« esse est percipi »
 
 → le cercle se pose des questions sur la valeur de ces énoncés → sens ? → on a
 l’impression qu’ils ont du sens, mais ils n’en ont pas, car ils n’expriment pas
@@ -709,6 +732,8 @@ connaissance, leur désaccord ne compte donc pas.
 Extrait Nº 56 : questions internes → énoncés sensés
 		questions externes → énoncés insensés
 
+Extrait Nº 57 : avoir l’expérience d’une chose n’est pas la « connaître »
+
 3. Critique de l’intuitionnisme
 
 L’intuition est une théorie plutôt mystique → il n’y a pas de connaissance intuitive.
@@ -726,6 +751,95 @@ Qu’est-ce que connaître ? → pouvoir donner un nom à ce que nous voyons →
 expliquer = remplacer un terme par un complexe d’autre terme. Exemple : ceci
 est de l’eau, ceci a la formule chimique H₂O.
 
-4. Projet réductionniste de CARNAP
+4. Projet réductionniste de CARNAP, « table » est une abréviation pour… (1928)
 
+Appliquer systématiquement à tous les énoncés une réduction à un autre énoncé
+particulier ne contenant aucun terme ne décrivant pas ce qu’on observe dans
+l’expérience. Exemple : 
+
+« La construction logique du monde », “Der logische Anbau der Welt”, R. CARNAP
+
+CARNAP, L’« Aufbau » (1928) :
+
+« Berlin est une ville d’Allemagne » (proposition)
+
+fonction propositionnelle : 
+
+« x est une ville d’Allemagne »		F(x)
+(= « * est une ville d’Allemagne »)
+
+Valeurs de x :
+« München est une ville d’Allemagne » = 1
+« Paris est une ville d’Allemagne »   = 0
+
+Relation : 
+« x est une ville d’y »			R(x,y)
+( = « * est une ville d’* »)
+
+Valeurs de x,y :
+
+« München est une ville d’Allemagne » = 1
+« München est une ville de France »   = 0
+
+« x contient du Cu »
+	↓
+« x devient vert en s’oxydant »
+	↓
+  Sense datum
+  observable
+
+Extrait Nº 66
+
+QUINE À HARVARD
+
+Gilbert RYLE
+Extrait Nº 67 → la philosophie = théorie des significations
+J. R. SEARLE (1932 - )
+Extrait Nº 68 → XXe siècle → philosophie du langage
+Extrait Nº 69 → distinction entre philosophie du langage (langage = fin,
+objet), philosophie linguistique (méthode)
+Extrait Nº 70
+
+Willard v. O. QUINE (1908 → 2000) : philosophe analytique & du langage
+
+1. Comparer nos énoncés au monde ?
+
+Le déclin du cercle de Vienne est dû, non seulement à la montée du nazisme,
+mais aussi à cause de dissensions internes, un perturbateur est Otto NEURATH
+(1882 → 1945) → remettait en question que nos énoncés pourraient être
+vérifiés/falsifiés par l’expérience.
+
+Énoncés | faits → comparer qqch de linguistique (énoncé) avec qqch de
+non-linguistique (une expérience), cette expérience vécue n’est pas encore une
+connaissance, selon les principes même de SCHLICK et al. qui combattent
+l’intuitionnisme, NEURATH pensait que pour être cohérent, on ne pouvait
+comparer les énoncés qu’avec des énoncés. 
+
+Théorie correspondantiste | Théorie cohérentiste  
+                          | 
+S1	S2	S3        | S1 ↔ S2 ↔ S3
+↓       ↓       ↓         |  ↓    ↓    ↓
+↓       ↓       ↓         |  ↓    ↓    ↓
+↓       ↓       ↓         |  ↓    ↓    ↓
+F1      F2      F3        | F1   F2   F3
+
+A. J. AYER (1910 → 1989) : Extrait Nº71
+
+2. « Brutus a tué César » (Quine, 1953)
+
+Deux thèses :
+
+- réformer l’empirisme traditionnel, du rapport entre les énoncés et le monde ;
+“From a logical point of view” 
+Extrait Nº 72
+- 
+Extrait Nº 73
+(1) « Ce qui est blanc ne peut pas apparaître noir » 
+(2) « Tous les cygnes sont blancs » = FAUX
+
+Celui que l’on choisit est choisi selon un critère de commodité.
+
+Extrait Nº 76 
+
+3. Comment traduire « Gavagai » ? (1960) 
 
