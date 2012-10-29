@@ -599,7 +599,7 @@ Texte 9 : B. d’Espagnat, « À la recherche du réel »
 
 La cosmologie pythagoricienne :
 
-ils vont permettre de donner une raison au mouvement des planètes ;
+Ils vont permettre de donner une raison au mouvement des planètes ;
 les pythagoriciens sont les premiers à suggérer que, peut-être, la Terre n’est pas le centre du monde.
 
 1.2.3. Héraclite d’Éphèse 
@@ -614,7 +614,7 @@ Cratyle a repris les idées d’Héraclite mais les appliqua au langage, dont le
 changement universel rend inutile toute expression (ce qui motivera Cratyle à
 ne plus bouger que le petit doigt pour s’exprimer).
 
-le logos : https://fr.wikipedia.org/wiki/H%C3%A9raclite_d%E2%80%99%C3%89ph%C3%A8se#Le_logos
+Le logos : https://fr.wikipedia.org/wiki/H%C3%A9raclite_d%E2%80%99%C3%89ph%C3%A8se#Le_logos
 
 Texte 11 : quelques fragments d’Héraclite
 
@@ -622,10 +622,68 @@ Texte 11 : quelques fragments d’Héraclite
 
 Italie du Sud
 
-Parménide : fin du VIe, début du Ve siècle, poème très difficile, acte de
-naissance de la métaphysique (qu’est-ce que l’être ?)
+Métaphysique.
+
+Extension | intention
+
+Parménide (Παρμενίδης / Parmenídês) (515 - 470 ?) : fin du VIe, début du Ve siècle, poème très difficile,
+acte de naissance de la métaphysique (qu’est-ce que l’être ?)
 
 - « L’être est, le non-être n’est pas. ». Une opposition radicale entre l’être
   et le devenir.
+→ Parménide exclut le devenir, l’être est inengendré, immobile, impérissable. →
+La philosophie et même la science auront tendance à considérer que la seule
+vraie réalité est stable/immuable. → e.g. : idées platoniciennes.
 
-Zénon :
+Le premier philosophe à donner un poids ontologique au devenir, c’est Aristote,
+il introduit la notion d’être en puissance (peut apprendre qqch)/d’être en acte
+(sait faire qqch).
+
+- être comme condition de la pensée → sans l’être, il n’y a pas de pensée,
+  l’être n’existe que pour la pensée → idéalisme
+
+(TEXTE 11 : FRAGMENT DU POÈME DE PARMÉNIDE)
+
+L’être doit être qualifié de transcendantal (à ne pas confondre avec « transcendant »)
+
+KANT : transcendantal : conditions de possibilité de la pensée/connaissance.
+↓
+À quelle(s) condition(s) la connaissance est-elle possible ?
+
+Assure à la pensée une certaine forme de continuité/stabilité/unité permettant
+à la pensée d’appréhender les choses.
+
+idéalisme : l’objet connu dépend dans une certaine mesure du sujet connaissant
+ou de la connaissance qu’on en a, il n’y a pas d’être pré-existant à la pensée.
+réalisme : l’objet connu ne dépend pas du sujet, l’être pré-existe à la pensée
+et la pensée vient ensuite s’adapter à l’être
+
+- L’opposition Héraclite / Parménide : qu’est-ce qui est le plus fondamental,
+  ce qui se perpétue ou ce qui évolue ? 
+
+Zénon d’Élée (489 → 420 (?)) : élève de Parménide, il s’est efforcé, selon
+Aristote, de prouver l’affirmation de son maître Parménide, il va développer
+des paradoxes célèbres, destinés à montrer que le mouvement est impossible
+parce que contradictoire.
+
+4 paradoxes décrits par Aristote :
+1. Dichotomie : une flèche tirée vers une cible n’atteindra jamais sa cible,
+parce qu’avant d’atteindre sa cible, il faut encore parcourir la moitié du
+chemin → ¼, ⅛, etc. → si on applique la même chose au temps, l’infinitésimal
+est parallèle et se compense.
+2. Achille & la tortue : si la tortue part avec un handicap pour une course, Achille ne la rattrapera jamais.
+3. La flèche : si on prend une flèche en mouvement et qu’on prend un instant
+précis, elle est immobile → mais vitesse instantanée (limite) → vitesses
+moyennes sur des intervalles de temps de plus en plus petits → tend vers une
+limite.
+4. Le stade : trois objets dans un stade : A est immobile au milieu, B se
+déplace dans un sens, C dans l’autre → B & C vont se croiser (ils sont décalés
+et donc les trois seront alignés au bout d’un moment) → l’observateur assis à
+la tête du train B, pendant le temps qui sépare le décalage de l’alignement,
+verra deux fois plus de C que de A.
+
+Pour Leibniz, un nombre infini (nombre de tous les nombres) serait contradictoire.
+
+Bijection entre nombre entier et nombre rationnel
+
+Pour épuiser un ensemble infini : diagonalisation. 
