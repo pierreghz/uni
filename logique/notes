@@ -923,6 +923,95 @@ Une formule conditionnelle valide traduit un lien de conséquence logique :
 Une formule biconditionnelle valide traduit un lien d’équivalence logique :
 ⊨A⇔B A↔B
 
+¬¬A ↔ A
+(double négation)
+
+(A ∧ A) ↔ A
+(idempotence de la conjonction)
+
+(A ∨ A) ↔ A
+(idempotence de la disjonction)
+
+(A ∧ B) ↔ (B ∧ A)
+(commutativité de la conjonction)
+
+(A ⇔ B) ↔ (B ⇔ A)
+(commutativité du biconditionnel) 
+
+[(A ∨ B) ∨ C] ↔ [A ∨ (B ∨ C)]
+Associativité de la disjonction
+
+[(A ∧ B) ∧ C] ↔ [A ∧ (B ∧ C)]
+Associativité de la conjonction
+
+
+Distributivité de la conjonction sur la disjonction
+
+Distributivité de la disjonction sur la conjonction
+
+(A ∧ T) ↔ A
+(simplification)
+
+(A ∨ ⊥) ↔ A
+(simplification)
+
+¬(A ∧ B) ↔ ¬A ∨ ¬B
+(transformation de la conjonction en disjonction)
+
+¬(A ∨ B) ↔ ¬A ∧ ¬B
+(transformation de la disjonction en conjonction)
+
+
+	EXERCICE
+
+Si Paul vient, alors Quentin viendra ou Raoul ne viendra pas. Or, Quentin ne
+viendra pas si Raoul et Sébastien viennent. Et Raoul viendra si Sébastien et
+Thierry viennent.
+
+Par la méthode de résolution, déterminez qui, à coup sûr, ne viendra pas si
+Paul et Sébastien viennent.
+
+p ⇒ (q ∨ ¬r)
+(r ∧ q) ⇒ ¬q
+(s ∧ t) ⇒ r
+
+DÉDUCTION NATURELLE
+
+Élimination du conditionnel 
+
+A ⇒ B	Si Philippe est menuisier, il a au moins un outil.
+A	Philippe est menuisier.
+-----
+B	Il a au moins un outil.
+
+| A
+| .
+| .
+| B
+----
+A ⇒ B
+
+Élimination de la disjonction
+A ∨ B		Cet employé est malhonnête ou il est incompétent.
+| A | B		De l’hypothèse que     | De l’hypothèse que 
+| . | .		« il est malhonnête »  | « il est incompétent »
+| . | .		on déduit que          | on déduit que 
+| C | C		« il doit être viré »  | « il doit être viré »
+-------
+C
+
+Introduction de la négation
+
+| A	Supposons que « 2 = 3 »
+| .
+| B	On en déduit que
+| .	« 2 = 1 + 1 »
+| ¬B	et par ailleurs que
+----	« 2 ≠ 1 + 1 »
+ ¬A	Donc il est faux que 2 = 3.
+
+MÉTHODE AXIOMATIQUE
+
 LOGIQUE DES PRÉDICATS :
 	 - LOGIQUE ANCIENNE ;
 	 - LOGIQUE CONTEMPORAINE.
