@@ -1012,6 +1012,10 @@ Introduction de la négation
 
 MÉTHODE AXIOMATIQUE
 
+(p ⇒ q) ⇒ r
+¬(p ⇒ q) ∨ r
+¬(p ∧ ¬q) ∨ r
+
 LOGIQUE DES PRÉDICATS :
 	 - LOGIQUE ANCIENNE ;
 	 - LOGIQUE CONTEMPORAINE.
