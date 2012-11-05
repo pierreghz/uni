@@ -155,3 +155,28 @@ Prolongations & paires complémentaires
      ¬p,q,¬p q,q,¬p
      
 p. 40
+
+Formes normales disjonctives
+
+p ∧ ¬q ∧ r)
+
+	(p ∧ r)
+        /      \
+ (p∧q∧r)        (p ∧ ¬q ∧ r)
+
+La forme normale disjonctive donne les cas pour lesquels la formule est vraie,
+s’il n’y a aucun membre, la formule est contradictoire, lorsqu’elle est
+développée, on pourra savoir si la formule est valide si le nombre de membres
+et égal à 2^n
+
+Exercice 44b, p 212
+
+b) (p ⇒ q) ⇔ (¬p ⇒ ¬q)
+          ---
+⇔ [(p ⇒ q) ⇒ (¬p ⇒ ¬q)] ∧ [(¬p ⇒ ¬q) ⇒ (p ⇒ q)]
+⇔ [¬(p ⇒ q) ∨ (¬p ⇒ ¬q)] ∧ [¬(¬p ⇒ ¬q) ∨ (p ⇒ q)]
+⇔ [(p ∧ ¬q) ∨ (¬¬p ∨ ¬q)] ∧ [(¬p ∧ ¬¬q) ∨ (¬p ∨ q)] 
+⇔ [(p ∧ ¬q) ∨ (p ∨ ¬q)] ∧ [(¬p ∧ q) ∨ (¬p ∨ q)]
+⇔ [(p ∨ p ∨ q) ∧ (¬q ∨ p ∨ ¬q)] ∧ [(¬p ∨ ¬p ∨ q) ∧ (q ∨ ¬p ∨ q)]
+⇔ (p 
+Formes normales conjonctives
