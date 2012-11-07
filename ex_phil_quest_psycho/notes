@@ -497,15 +497,20 @@ Niveaux (dans la pensée)
 
 Genre & espèce : 
 
-Le genre englobe l’espèce (exemple : chaise (→ genre : siège), espèce : chaise avec accoudoir)
+Le genre englobe l’espèce (exemple : chaise (→ genre : siège), espèce : chaise
+avec accoudoir)
 
-[...]
+
+Réflexivité: propriété qu'a le langage humain de se prendre lui-même pour
+objet. Penser à un objet n'est pas le même que réfléchir à cet objet.
+
 
 P1 : Paris compte 10⁷ habitants = usage référentiel
-(rang 1)
+(rang logique 1) → géographe
 P2 : « Paris » compte cinq lettres = usage métalinguistique (métalangage)
-(rang logique 2)
-P3 « La proposition « Paris » compte cinq lettres. » appartient au métalangage (rang logique 3)
+(rang logique 2) → grammairien
+P3 « La proposition « Paris » compte cinq lettres. » appartient au métalangage
+(rang logique 3)
 
 Paradoxe du menteur : 
 
