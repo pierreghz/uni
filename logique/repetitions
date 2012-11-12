@@ -180,3 +180,71 @@ b) (p ⇒ q) ⇔ (¬p ⇒ ¬q)
 ⇔ [(p ∨ p ∨ q) ∧ (¬q ∨ p ∨ ¬q)] ∧ [(¬p ∨ ¬p ∨ q) ∧ (q ∨ ¬p ∨ q)]
 ⇔ (p 
 Formes normales conjonctives
+
+Méthode de déduction naturelle : vérification de la validité 
+
+Prémisses → raisonnements
+
+
+cf. pp. 48 → 49 
+
+Élimination = E
+Introduction = I
+
+déchargement : moment où on sort de l’hypothèse
+
+L’introduction de négation est très utile.
+
+
+Page 215 : Exercice 57a
+
+a. Si Dieu n’existe pas, la vie terrestre est absurde. → ¬d⇒a
+   
+   Si l’âme ne survit pas au corps, la vie terrestre est absurde. → ¬a⇒t
+
+   Mais la vie terrestre n’est pas absurde. → ¬t
+
+   Donc il est faux que Dieu n’existe pas ou que l’âme ne survit pas au corps. → ¬(¬d ∨ ¬a)
+
+1) ¬d ⇒ t (Pr)
+2) ¬a ⇒ t (Pr)
+3) ¬t     (Pr)
+4) | ¬ d ∨ ¬a (hyp)
+5) | ¬ t      (3, réit.)
+6) | | ¬d   | ¬a (hyp)
+7) | | t    | t  (6, 1, 2, E ⇒)
+8) | t (6, 7, E ∨, déch. 6)
+9) ¬(¬d ∨ ¬a) (5, 8,, I ¬ + déch. 4)
+Exercice 57b
+
+e ⇔ m
+m ⇒ ¬o
+c ⇒ (p ∧ ¬o)
+
+(e ∨ c) ⇒ ¬o 
+
+1) e ⇔ m (Pr.)
+2) m ⇒ ¬o (Pr.)
+3) c ⇒ (p ∧ ¬o) (Pr)
+4) | (e ∨ c) (hyp)
+5) | | e  | c (hyp)
+6) | | m  | (p ∧ ¬o) (1, 5, E ⇔) | (5, 3, E ⇒)
+7) | | ¬o | ¬o (2, 6, E ⇒) | (6, E ∧)
+8) | ¬o (7, E ∨ + dech 5)
+9) (e ∨ c) ⇒ ¬o (4, 8, I =>, déch. 4)
+
+Exercice 57c
+d ∨ u 
+f ⇒ ¬d
+
+¬f ∨ u
+
+1) d ∨ u (Pr.)
+2) f ⇒ ¬d (Pr.)
+3) 
+4)
+5)
+6)
+7)
+8)
+9)
