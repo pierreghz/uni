@@ -1018,6 +1018,131 @@ MÉTHODE AXIOMATIQUE
 
 LOGIQUE DES PRÉDICATS :
 	 - LOGIQUE ANCIENNE ;
+		- La prédication et la quantification 
+
+Tous les actes explicitement interdits par la loi sont répréhensibles.
+
+Certains commerces sont explicitement interdits par la loi.
+
+Donc certains commerces sont répréhensibles.
+
+→ éléments : soit prédicat, soit sujet
+quantification → universel >< particulier
+
+Les 4 formes fondamentales :
+
+Prédication universelle affirmative :
+	Exemples :
+	Tous les hommes sont mortels.
+	Les hommes sont exclusivement mortels.
+	N’importe quel homme est mortel
+
+			Le carré logique et les inférences immédiates
+                   contrariété
+               A -------------- E
+               |↘               |
+               |  ↘             |
+               |    ↘           |
+               |      ↘         |
+subalternation |        ↘       |
+               |          ↘     |
+	       |            ↘   |
+	       |              ↘ |
+               I--------------- O
+
+
+rapport de contrariété : pas vrais en même temps, mais faux en même temps
+contradiction : ne peuvent être tous les deux ni vrais ni faux en même temps
+
+
+	        A
+        Toutes les licornes
+          sont mortelles
+                |
+                |
+subalternation  |
+                |
+                |
+        Toutes les licornes
+        ne sont pas mortelles
+
+présupposés d’existence → si les licornes n’existent pas, rien ne peut être utilisé avec les règles des subalternes et des subcontraires
+
+La conversion simple
+
+E & I
+
+La conversion partielle
+
+	A                    I
+ Tous les hommes  →→→ Certains
+  sont mortels
+-----------------------------------------------------------------------
+Exemple 35 :
+
+Tout contrat formé sur simple échange oral des consentements est valable.
+
+Donc certains contrats valables sont formés sur simple échange oral des
+consentements.
+-----------------------------------------------------------------------
+L’obversion
+
+	A                     E
+Tous les hommes    ↔    Aucun homme
+sont mortels           n’est immortel
+
+Certains hommes    ↔  Certains hommes
+ne sont pas mortels   sont immortels
+       O                      I
+
+Exercice 60
+
+A, E, I ou O ?
+
+a) A
+b) I
+
+Exercice 64
+
+A, E, I ou O ? : « Les juges ne sont parfois pas équitables »
+
+E
+
+Quel est son contradictoire ?
+
+
+--------------------------------------------------------------
+
+Chaque mode peut prendre 4
+
+
+Exemples 38 & 40
+
+
+Tous les aliénés sont déments.
+Tous les fous sont aliénés.
+
+Donc tous les fous sont déments.
+
+Petit terme : dément
+grand terme : fou
+moyen terme : aliéné
+
+Tous les aliénés sont déments.
+Tous les aliénés sont fous.
+
+Donc tous les fous sont déments.
+
+
+p. 64 : syllogismes valides
+
+		Les syllogismes catégoriques
+
+		Les diagrammes de Venn
+
+		L’algèbre de Boole
+
 	 - LOGIQUE CONTEMPORAINE.
+
 
 
