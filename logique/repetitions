@@ -248,3 +248,95 @@ f ⇒ ¬d
 7)
 8)
 9)
+
+LOGIQUE DES PRÉDICATS DU PREMIER ORDRE
+
+LOGIQUE ANCIENNE :
+
+Exercice 68, p. 219
+
+I A I
+
+Exercice 69, p. 219
+
+A O O
+
+Tous les hommes sont mortels.
+
+Socrate n’est pas mortel.
+
+Donc Socrate n’est pas un homme.
+
+--------------------------------
+→ vers syllogisme valide de première figure
+
+Le C indique qu’on doit utiliser la méthode par contradiction (p. 67)
+
+Tous les hommes sont mortels
+
+Certains Socrate ne sont pas mortels
+
+Donc certains Socrate ne sont pas des hommes.
+
+↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
+Tous les hommes sont mortels.
+
+Si tous les Socrate sont des hommes.
+
+Alors tous les Socrate sont mortels.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+DIAGRAMMES DE VENN
+
+Part des syllogismes, sous forme d’ensembles
+
+Exercice 77a, p 220
+
+Tous ceux qui trahissent sont des lâches ; aucun homme juste ne trahit.
+
+L, J, T
+
+Fill T J
+
+77c : Aucun dauphin n’est ovipare ; tous les poissons sont ovipares.
+
+O, D, P
+
+→ fill O ∩ D → aucun dauphin n’est ovipare
+→ fill P ∩ D → aucun poisson n’est un dauphin
+
+77d : Rien de que tu as écrit ne m’est indifférent ; certains textes de ce
+recueil me sont indifférents.
+
+I, T, R
+
+→ fill I ∩ T
+→ fill R ∩ I
+
+→→→ Certains textes du recueil ne sont pas de toi 
+
+Exercice 78a, p 220
+
+Seuls les jugements désintéressés sont des jugements libres.
+
+Tout jugement rationnel est un jugement libre.
+
+Donc certains jugements rationnels sont désintéressés.
+
+L, D, R
+
+→ L : fill R ∩ C + C ∩ ϕ
+→ fill R
+Faux, sauf si on postule que les jugements rationnels existent.
+
+78c : Nul n’est dispensé de voter à moins qu’il soit mineur.
+
+Les députés sont toujours majeurs.
+
+Donc aucun député n’est dispensé de voter.
+
+M, Di, Dé
+
+
+
