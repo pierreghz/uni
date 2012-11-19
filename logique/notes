@@ -1000,6 +1000,19 @@ A ∨ B		Cet employé est malhonnête ou il est incompétent.
 -------
 C
 
+(1) p ⇔ q
+(2) q ⇒ r
+(3) s ⇒ (t ∧ r)
+
+(4) | p ∨ s
+(5) | | p               | s
+(6) | | p ⇔ q (1)       | s ⇒ (t ∧ r) (3)
+(7) | | q     (5-6:E⇔)  | t ∧ r (5-6:E⇒)
+(8) | | q ⇒ r (2)       |
+(9) | | r     (8-9:E⇒)  | r     (7:E∧)
+(10)| r (4-5-9:E∨)
+(11) (p ∨ s) ⇒ r (4 - 10 : I⇒)
+
 Introduction de la négation
 
 | A	Supposons que « 2 = 3 »
@@ -1010,11 +1023,22 @@ Introduction de la négation
 ----	« 2 ≠ 1 + 1 »
  ¬A	Donc il est faux que 2 = 3.
 
+
+Exercice 55 :
+
+Par la méthode déduction naturelle, démontrez la transitivité du conditionnel :
+
+[(p ⇒ q) ∧ (q ⇒ m)] ⇒ (p ⇒ m)
+
 MÉTHODE AXIOMATIQUE
 
 (p ⇒ q) ⇒ r
 ¬(p ⇒ q) ∨ r
 ¬(p ∧ ¬q) ∨ r
+
+Exercice 59
+
+Dans le système axiomatique de Jan Łukasiewicz
 
 LOGIQUE DES PRÉDICATS :
 	 - LOGIQUE ANCIENNE ;
@@ -1030,6 +1054,15 @@ Donc certains commerces sont répréhensibles.
 quantification → universel >< particulier
 
 Les 4 formes fondamentales :
+
+Universelle Affirmative (A)
+	Tous les carrés sont des rectangles
+Universelle Négative (E)
+	Aucun triangle n’est un rectangle
+Particulière Affirmative (I)
+	Certains rectangles sont des carrés
+Particulière Négative (O)
+	Certains rectangles ne sont pas carrés
 
 Prédication universelle affirmative :
 	Exemples :
@@ -1113,7 +1146,7 @@ Quel est son contradictoire ?
 
 --------------------------------------------------------------
 
-Chaque mode peut prendre 4
+Chaque mode peut prendre 4 .
 
 
 Exemples 38 & 40
@@ -1135,6 +1168,8 @@ Donc tous les fous sont déments.
 
 
 p. 64 : syllogismes valides
+
+
 
 		Les syllogismes catégoriques
 
