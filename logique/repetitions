@@ -339,4 +339,30 @@ Donc aucun député n’est dispensé de voter.
 M, Di, Dé
 
 
+¬{[(e∧f) w (f ⇒ g)] ⇔ ¬(f∧e)}
+           /    \      
+          /      \        
+         /        \       
+        /          \     
+       /            \
+      /              \
+     /                \
+    /                  \
+[(e∧f) w (f ⇒ g)],(f∧e)|¬[(e∧f) w (f ⇒ g)],(f∧e)
+    |                              /     \
+[(e∧f) w (f ⇒ g)],(f∧e)           /       \  
+            /\          ¬[(e∧f)w(f⇒g)],¬f  \
+           /  \               /\          ¬[(e∧f)w(f⇒g)],¬e
+          /    \ (e∧f),(f⇒g),¬f ¬(e∧f),¬(f⇒g),¬e
+         /      \       |          
+        /        \ e,f,(f⇒g),¬f
+       /          \     X
+(e∧f),¬(f⇒g),f,e  ¬((e∧f),(f⇒g),f,e
+       |            /        \ 
+ e,f,¬(f⇒g),f,e ¬e,(…),f,e  ¬f,(…),f,e
+       |            X           X
+O ← e,f,f,¬e
+
+
+La formule de départ n’est pas valide.
 
