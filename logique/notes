@@ -1166,8 +1166,83 @@ Tous les aliénés sont fous.
 
 Donc tous les fous sont déments.
 
+-----------------------------------------------------------------------
 
-p. 64 : syllogismes valides
+2 prémisses & une conclusion
+
+4 modes (A, E, I, O)
+
+p. 64 : 15 syllogismes valides
+
+1ère figure : 
+
+        M     G
+        P     M
+__________________
+        P     G
+
+On présente toujours la majeure avant la mineure.
+
+Nul n’est dispensé de voter à moins qu’il soit mineur.
+Les députés sont toujours majeurs.
+
+Donc aucun député n’est dispensé de voter.
+-----------------------------------------------------------------------
+
+EAE 1ère figure :
+
+Aucun    M n’est G
+Tous les P sont  M
+__________________
+Aucun    P n’est G
+
+Aucun majeur n’est dispensé de voter.
+Tous les députés sont majeurs.
+
+Donc aucun député n’est dispensé de voter.
+
+1ère figure : Barbara, c*e*l*a*r*e*nt, darii, ferio
+
+Qui est déchu de ses droits civils n’est éligible.
+Certains criminels ne sont pas déchus de leurs droits civils.
+
+Donc certains criminels sont éligibles.
+
+E
+O
+I 
+→ pas de syllogisme valide de 1ère figure applicable → pas valide
+
+I   Certains grands sont beaux
+A   Tous les grands sont forts
+_________________________________________
+O   Donc certains forts ne sont pas beaux
+→ troisième figure Sujet → Sujet
+
+Pas valide, pas de IAO dans la 3e figure
+
+
+Réduire les syllogismes aux syllogismes parfaits :
+
+La consonne initiale à quel syllogisme de la 1ère figure on réduit :
+S indique qu’il faut opérer une conversion _s_imple ;
+P qu’il faut opérer une conversion _p_artielle (ou conversion par accident) ;
+M qu’il faut permuter les prémisses
+C qu’il faut employer la contradiction
+
+Exemple 42 : 
+Tous les États européens sont représentés à l’ONU.
+Aucune des îles Baléares n’est représentée à l’ONU.
+
+Donc aucune des îles Baléares n’est un État européen.
+
+Camestres
+
+Aristote : les quantités de la prédication
+
+Universelle : tous les hommes sont mortels
+Particulière : certains hommes sont mortels
+Singulière : Socrate est mortel → jugement prédicatif premier selon Frege
 
 
 
